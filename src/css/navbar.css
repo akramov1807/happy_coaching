@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+    --px4: 0.27vw;
+    --px10: 0.70vw;
+    --px15: 1.41vw;
+    --px25: 1.73vw;
+    --px28: 1.94vw;
+    --px150: 10.41vw;
+    --px1280: 88.88vw;
+}
+
+.site_navbar * {
+    font-family: "Kumbh Sans", "Arial", sans-serif;
+}
+
+.site_navbar {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 656978;
+}
+
+.navbar_wrapper {
+    width: var(--px1280);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: var(--px10) 0;
+}
+
+.site_logo {
+    display: block;
+    width: var(--px150);
+    height: var(--px28);
+}
+
+.navbar-links_wrap {
+    display: flex;
+    align-items: center;
+    gap: var(--px25);
+}
+
+.navbar_link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4a556c;
+    font-size: var(--px15);
+    font-weight: 400;
+    line-height: var(--px25);
+    letter-spacing: -0.3px;
+}
+
+.link_active {
+    font-weight: 500;
+    color: #20ad96;
+}
